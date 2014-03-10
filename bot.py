@@ -13,9 +13,9 @@ if __name__ == "__main__":
 			y = None
 			if orientation == "horizontal":
 				x = random.randint(0, 2)
-				y = random.randint(0, 7)
+				y = i
 			else:
-				x = random.randint(0, 7)
+				x = i
 				y = random.randint(0, 2)
 			
 			point = "%d%d" % (x, y)
